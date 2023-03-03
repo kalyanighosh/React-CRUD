@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 40px;
+    width: 100;
+    background-color: rgb(15, 66, 15);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav>a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 1px black;
+}
+#myform{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./test.jpg");
+    background-size: cover;   
+}
+#myform>table{
+    height: 250px;
+    width: 280px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 40px greenyellow;  
+}
+#myform>table label{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+}
+#myform>table input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+#myform>table input:focus{
+    outline: none;
+
+}
+button{
+    height: 30px;
+    width: 130px;
+    background-color:greenyellow;
+    border: none;
+    border-radius: 100px;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: 0.5 s;
+    cursor: pointer;
+}
+
+h4{
+   
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 0px 0px 1px white;
+    font-size: 20px;
+}
+
+#myuser{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("./test.jpg");
+    background-size: cover;   
+    flex-wrap: wrap;
+}
+
+#cards{
+    height: 200px;
+    width: 260px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px white;
+}
+#cards:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+#cards>table{
+    padding: 15px;
+
+}
+#cards td{
+    color: white;
+    padding: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cards td>button{
+    height:20px  ;
+    width: 80px;
+    
+    display: inline-block;
+}
+
+#cards td>button>a{
+    text-decoration: none;
+    color: black    ;
+}
+
+#cards td>button:hover{
+    transform: scale(1.1);
+    background-color: rgb(160, 32, 32);
+
+}
+
+
+
+
+
+

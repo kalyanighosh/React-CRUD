@@ -68,3 +68,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+-------------------------------------------------------------------------------------------------------
+
+
+
+additional info to be done after cloning :     make sure to run 3 given commands on project directory  :
+
+                                          1. npm install axios
+                                          2. npm install json-server
+                                          3. npm install react-router dom 
+                                          
+                                            
+                                           then follow :  npx json-server Backend/db.json  --watch port 5000
+                                                          npm start 

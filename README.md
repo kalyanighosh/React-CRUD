@@ -73,12 +73,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
-additional info to be done after cloning :     make sure to run 3 given commands on project directory  :
-
-                                          1. npm install axios
-                                          2. npm install json-server
-                                          3. npm install react-router dom 
+additional info to be done after cloning :   
                                           
                                             
-                                           then follow :  npx json-server Backend/db.json  --watch port 5000
-                                                          npm start 
+                                           follow :  npx json-server Backend/db.json  --watch port 5000
+                                                     
+                                                     npm start 
